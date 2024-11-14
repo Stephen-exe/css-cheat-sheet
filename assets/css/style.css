@@ -13,6 +13,12 @@ body {
   font-family: Arial;
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
 .header-type {
   color: white;
 }
