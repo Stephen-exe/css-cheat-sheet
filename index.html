@@ -47,6 +47,43 @@
         repeat(12, 1fr);<br>
         }</p>
     </section>
+
+    <section class="card">
+      <header class="card-title">Linear Gradients</header>
+      <p class="code-details">This will create a background linear gradient from top to bottom.</p>
+      <p class="code">linear-gradient-background {<br>
+        &emsp;background-image: linear-gradient(<br>
+        &emsp;rgba(232, 102, 236, 0.3) 0%,<br>
+        &emsp;rgba(232, 102, 236, 0.6) 100%);<br>
+        }</p>
+    </section>
+    <section class="card">
+      <header class="card-title">Box Transistion Glow</header>
+      <p class="code-details">Use transistion and box shadows to glow on hover.</p>
+      <p class="code">
+        .code-card .card-header { <br>
+        &emsp;border-radius: 8px;<br>
+        &emsp;transition: all 0.5s ease-in-out;}<br>
+        &emsp;.code-card:hover.<br>
+        &emsp;.code-card:hover .card-header {<br>
+        &emsp;box-shadow: inset 0px 0px 8px<br>
+        &emsp;rgba(232, 102, 236, 1), 0 0 15px<br>
+        &emsp;rgba(232, 102, 236, 1);<br>
+        }</p>
+    </section>
+    <section class="card">
+      <header class="card-title">Overlay Card with Title</header>
+      <p class="code-details">Use position properties and negative margins tro raise elements higher than their natural
+        starting point.</p>
+      <p class="code">
+        .card-header {<br>
+        &emsp;position: relative;<br>
+        &emsp;margin-top: -20px<br>
+        &emsp;}<br>
+      </p>
+    </section>
+
+
   </main>
 
   <footer>Made with &#10084;&#65039; and CSS</footer>
