@@ -12,7 +12,8 @@
 <body>
   <header class="css-snippet-header">
     <h1>CSS Snippet Cheatsheet</h1>
-    <p>Ever gave trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to
+    <p class="header-type">Ever gave trouble recalling the exact syntax for your favorite CSS code? Give it a permanent
+      home and add it to
       this page! Select any snippet below and it'll automatically select all of the code for you to copy</p>
   </header>
 
@@ -26,23 +27,25 @@
         &emsp;flex-wrap: wrap;<br>
         }</p>
     </section>
-    <section>
-      <header>Flexbox Column</header>
-      <p>Use this to create a Flexbox column layout</p>
-      .column {<br>
-      &emsp;display: flex;<br>
-      &emsp;flex-direction: column;<br>
-      }</p>
+    <section class="card">
+      <header class="card-title">Flexbox Column</header>
+      <p class="code-details">Use this to create a Flexbox column layout</p>
+      <p class="code">
+        .column {<br>
+        &emsp;display: flex;<br>
+        &emsp;flex-direction: column;<br>
+        }</p>
     </section>
-    <section>
-      <header>CSS Grid Layout</header>
-      <p>Build a 12-column layout using CSS Grid</p>
-      .grid {<br>
-      &emsp;display: grid;<br>
-      &emsp;width: 100%<br>
-      &emsp;grid-template-columns:<br>
-      repeat(12, 1fr);<br>
-      }</p>
+    <section class="card">
+      <header class="card-title">CSS Grid Layout</header>
+      <p class="code-details">Build a 12-column layout using CSS Grid</p>
+      <p class="code">
+        .grid {<br>
+        &emsp;display: grid;<br>
+        &emsp;width: 100%<br>
+        &emsp;grid-template-columns:<br>
+        repeat(12, 1fr);<br>
+        }</p>
     </section>
   </main>
 

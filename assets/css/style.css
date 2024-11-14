@@ -13,6 +13,10 @@ body {
   font-family: Arial;
 }
 
+.header-type {
+  color: white;
+}
+
 .card {
   min-height: 50%;
   display: flex;
@@ -73,4 +77,10 @@ footer {
   font-weight: bold;
   margin-top: 30px;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .code-card {
+    flex: 100%
+  }
 }
